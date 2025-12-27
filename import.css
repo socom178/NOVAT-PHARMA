@@ -1,0 +1,155 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(6, 175, 0);
+    margin: 0;
+    width: 100%;
+    border-bottom: rgb(6, 175, 0);
+}
+img{
+    height: 7vh;
+    width: 4vw;
+    margin-left: 3vw;
+}
+ul{
+    display: flex;
+    gap: 2.2vw;
+    margin-left: 31vw;
+}
+li{
+    list-style: none;
+}
+a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 10px;
+    border-radius:5px;
+}
+nav a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    width: 0%;
+    height: 2.1px;
+    bottom: -2px;
+    background: rgb(8, 235, 0);
+    transition: all 0.5s ease;
+}
+nav a:hover{
+    transition: all 0.5s ease;
+    background: rgb(231, 255, 226);
+    color: rgb(8, 231, 1);
+}
+nav a:hover::after{
+    transition: all 0.7s ease;
+    width: 100%;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(19, 17, 26);
+    width: 100%;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 0px;
+
+}
+.sectionFooter{
+    display: flex;
+    gap: 3vw;
+    margin-top: 2vh;
+}
+.ft1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.ft2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.linkfoot{
+    margin-left: 2vw;
+    font-weight: 100;
+    color: rgb(240, 240, 240);
+}
+.linkfoot:hover{
+    transition: all 0.6s ease;
+   color: rgb(1, 18, 253);
+}
+.ft3{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.ulfoot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+.ft03{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 2vw;
+
+}
+.ft04{
+    margin-left: 0vw;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(26, 216, 1);
+}
+
+
+.divfooter{
+    background-color: rgb(0, 0, 15);
+    height: 6vh;
+    margin: 0;
+    color: white;
+}
+.copyright{
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.chx{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.icone{
+    height: 6vh;
+    margin-top: -3vh;
+    width: 3vw;
+    background: white; 
+    transition: all 0.6s ease;
+}
+.icone:hover{
+    transition: all 0.6s ease;
+    background: rgb(57, 43, 255); 
+}
+.conte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
