@@ -10,9 +10,18 @@
     <link rel="icon" type="image/png" href="./outils_visuel/Logo.PNG">
 </head>
 <body>
-    <?php 
-        include "header.html" ;
-    ?>
+    <header>
+        <img src="./outils_visuel/Logo.PNG" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="./Açpropos.php" class="option">A propos</a></li>
+                <li><a href="./Services.php" class="option">services</a></li>
+                <li><a href="./partenaire.php" class="option">Partenaires</a></li>
+                <li><a href="./contact.php" class="option">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <img src="./outils_visuel/imgbg2.jpg" alt="a propos" class="imgbg2">
     <div class="page-header">              
         <h1>À propos de NOVAT-PHARMA</h1>

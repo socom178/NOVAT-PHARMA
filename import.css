@@ -73,6 +73,12 @@ footer{
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+.logofooter{
+    width: 7vw;
+    height: 12vh;
 }
 .ft2{
     display: flex;
@@ -98,6 +104,8 @@ footer{
     display: flex;
     flex-direction: column;
     margin-left: 0;
+    margin-top: 1vh;
+    gap: 10px;
 }
 .ft03{
     display: flex;
@@ -107,10 +115,27 @@ footer{
 
 }
 .ft04{
-    margin-left: 0vw;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 
 }
+.ft4{
+    display: flex;
+    flex-direction: column;
+}
 
+.iconee{
+    height: 4vh;
+    
+    padding: 5px;
+    margin-left: 0;
+    width: 2vw;
+    background: white; 
+    border-radius: 50%;
+    transition: all 0.6s ease;
+}
 h3{
     text-align: center;
     font-size: 22px;
@@ -151,5 +176,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1px;
+    margin-left: 0;
+    padding: 5px;
+    gap: 1vw;
 }

@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="./outils_visuel/Logo.PNG">
 </head>
 <body>
+    
     <?php 
         include "header.html" ;
     ?>
