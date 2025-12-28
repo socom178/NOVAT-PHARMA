@@ -6,6 +6,9 @@ header{
     margin: 0;
     width: 100%;
     border-bottom: rgb(6, 175, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 img{
     height: 7vh;

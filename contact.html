@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVAT-PHARMA contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/png" href="./outils_visuel/Logo.PNG">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./outils_visuel/Logo.PNG" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="./Açpropos.html" class="option">A propos</a></li>
+                <li><a href="./Services.html" class="option">services</a></li>
+                <li><a href="./partenaire.html" class="option">Partenaires</a></li>
+                <li><a href="./contact.html" class="option">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p class="entete">CONTACTEZ-NOUS</p>
+    <div class="opti">
+        <div class="chx">
+            <img src="./outils_visuel/map-marker-outline.svg" alt="" class="icone">
+            <p class="txt"> <b>Adresse :</b>
+                Ahouansori-Agata, 6ᵉ arrondissement de Cotonou <br>
+                Carré n°1211 S <br>
+                03 BP 0007 Cotonou 03 - Jéricho</p>
+        </div>
+        <div class="chx">
+            <img src="./outils_visuel/phone-call.png" alt="" class="icone">
+            <p class="txt"> <b>Téléphone :</b> +229 01 99 90 42 31 / 01 21 60 38 76</p>
+        </div>
+        <div class="chx">
+            <img src="./outils_visuel/whatsapp.svg" alt="" class="icone">
+            <p class="txt"> <b>whatsapp :</b> +229 95 33 34 12</p>
+        </div>
+         <div class="chx">
+            <img src="./outils_visuel/email-outline.svg" alt="" class="icone">
+            <p class="txt"> <b>Email :</b> megamedpromo2019@yahoo.com</p>
+        </div>
+    </div>
+    
+
+    <form action="./contact.php" method="post">
+        <label for="" class="titrf">Envoyer un message</label>
+        <label for="N">Nom et Prénom</label>
+        <input type="text" name="nom" id="N" required placeholder="Entrez votre nom et prénom...">
+        <label for="E">E-mail</label>
+        <input type="email" name="email" id="E" required placeholder="Entrez votre email...">
+        <label for="O">Objet</label>
+        <input type="text" name="objet" id="" placeholder="Sujet du message">
+        <label for="M" >Message</label>
+        <textarea name="message" id="M" placeholder="saisir votre message..." required class="tes"></textarea>
+        <input type="submit" value="ENVOYER" class="bout">
+    </form>
+
+    <footer>
+            <section class="sectionFooter">
+                <div class="ft1">
+                    <img src="./outils_visuel/Logo.PNG" alt="novat_pharmacie" class="logofooter">
+                    <p class="descriptfooter">Votre agence de délégation médicale de confiance,
+                         au service des laboratoires pharmaceutiques et des professionnels de santé,
+                          pour une couverture terrain optimale et durable.
+                    </p>
+                </div>
+                <div class="ft2">
+                    <h3>Liens rapides</h3>
+                    <ul class="ulfoot">
+                        <li><a href="./index.html"class="linkfoot">Accueil</a></li>
+                        <li><a href="./Açpropos.html" class="option">A propos</a></li>
+                        <li><a href="./Services.html" class="option">services</a></li>
+                        <li><a href="./partenaire.html" class="option">Partenaires</a></li>
+                    </ul>
+                </div>
+                <div class="ft3">
+                    <h3>réseau sociaux</h3>
+                    <div class="ft03">
+                        <a href="">
+                            <img src="./outils_visuel/whatsapp.svg" alt="Whatsapp" class="icone" />
+                        </a>
+                        
+                        <a href="">
+                            <img src="./outils_visuel/linkedin (2).svg" alt="Facebook" class="icone" />
+                        </a>
+
+                        <a href="https://www.example.com">
+                            <img src="./outils_visuel/linkedin (1).svg" alt="Linkedin" class="icone" />
+                        </a>
+                    </div>        
+                </div>
+                <div class="ft4">
+                    <h3>contact</h3>
+                    <div class="ft04">
+                        <div class="conte">
+                            <img src="./outils_visuel/phone-call.png" alt="" class="iconee">
+                            <p class="des">92 39 73 72 / 27 37 82 73</p>
+                        </div>
+                        <div class="conte">
+                            <img src="./outils_visuel/email-outline.svg" alt="" class="iconee">
+                            <p class="des">novapharma@gmail.com</p>
+                        </div>
+                        <div class="conte">
+                            <img src="./outils_visuel/map-marker-outline.svg" alt="" class="iconee">
+                            <p class="des">adress BP01 azerad</p>
+                        </div>
+                    
+                    </div>    
+                    
+                </div>
+            </section>
+        <div class="divfooter">
+            <p class="copyright">© 2025 NOVAT-PHARMA - Tous droits réservés</p>
+        </div>
+    </footer>
+    <?php 
+        include "footer.html" ;
+    ?>
+    <script src="./index.js"></script>
+</body>
+</html>
