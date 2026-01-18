@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #fdfffc;
+    background-color: #ebebeb;
     margin: 0;
     padding: 0;
 }
@@ -26,11 +26,12 @@ body{
 .flexbol{
     margin-top: 10vh;
     width: 96%;
-    margin-left: 2%;
+    margin-left: 1%;
     display: flex;
     padding: 10px;
-    border-radius: 8px;
-    background-color: #fdfffc;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 2vh;
+    background-color: #ffffff;
 }
 .corpmg{
     width: 40%;
@@ -194,20 +195,24 @@ h4{
     text-align: center;
 }
 .conta{
-    background: #0a74da;
+    margin-top: 2vh;
+    background: #043ebb;
     color: white;
     padding: 14px 32px;
     font-weight: 700;
     border-radius: 6px;
     text-decoration: none;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     width: 15%;
     margin-left: 42.5%;
    
             
 }
 .conta:hover {
-    background: #074b8a;
+    transition: all 0.2s ease;
+    background: #0127ff;
+    border: 1px solid #0026fd;
+    font-size: 18px;
 }
 .cta-section{
     margin-bottom: 10vh;

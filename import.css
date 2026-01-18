@@ -7,8 +7,12 @@ header{
     width: 100%;
     border-bottom: rgb(6, 175, 0);
     position: fixed;
+    z-index: 10000;
     top: 0;
     right: 0;
+}
+.menuAF{
+    display: none;
 }
 img{
     height: 7vh;
@@ -23,33 +27,27 @@ ul{
 li{
     list-style: none;
 }
-a{
+.option{
     font-family: 'Montserrat';
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     position: relative;
-    padding: 10px;
-    border-radius:5px;
+    padding: 3px;
 }
 nav a::after{
     content:'';
     position: absolute;
     left: 0;
     width: 0%;
-    height: 2.1px;
-    bottom: -2px;
-    background: rgb(8, 235, 0);
-    transition: all 0.5s ease;
-}
-nav a:hover{
-    transition: all 0.5s ease;
-    background: rgb(231, 255, 226);
-    color: rgb(8, 231, 1);
+    height: 2px;
+    bottom: -1px;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
 }
 nav a:hover::after{
-    transition: all 0.7s ease;
+    transition: all 0.3s ease;
     width: 100%;
 }
 
@@ -93,6 +91,7 @@ footer{
     margin-left: 2vw;
     font-weight: 100;
     color: rgb(240, 240, 240);
+    text-decoration: none;
 }
 .linkfoot:hover{
     transition: all 0.6s ease;
@@ -114,9 +113,21 @@ footer{
     display: flex;
     flex-direction: column;
     width: 20%;
-    margin-left: 2vw;
-
+    padding: 5px;
+    margin-left: 6vw;
+    gap: 3vh;
+    margin-top: 2vh;
 }
+.icone{
+    height: 2vh;
+    margin-left: 0;
+    padding: 3px;
+    width: 1vw;
+    background: white; 
+    border-radius: 50%;
+    transition: all 0.6s ease;
+}
+
 .ft04{
     margin-left: 0;
     display: flex;
@@ -169,11 +180,12 @@ h3{
     margin-top: -3vh;
     width: 3vw;
     background: white; 
+    border-radius: 50%;
     transition: all 0.6s ease;
 }
 .icone:hover{
     transition: all 0.6s ease;
-    background: rgb(57, 43, 255); 
+    background: rgb(17, 0, 255); 
 }
 .conte{
     display: flex;
@@ -182,4 +194,79 @@ h3{
     margin-left: 0;
     padding: 5px;
     gap: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    header{
+        display: flex;
+        align-items: center;
+        height: 8vh;
+        background-color: rgb(6, 175, 0);
+        margin: 0;
+        width: 100%;
+        border-bottom: rgb(6, 175, 0);
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        right: 0;
+    }
+    .menuAF{
+        display: flex;
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: white;
+        color: #007900;
+        border: 1px solid rgb(21, 180, 0);
+        width: auto;
+        margin-left: 60%;
+        height: 6vh;
+    }
+    .show{
+        display: block;
+    }
+    
+    img{
+        height: 7vh;
+        width: 12vw;
+        margin-left: 3vw;
+    }
+    nav{
+        display: none;
+
+        opacity: 0;
+        transform: translateX(20vw);
+        transition: all 0.5s ease;
+    
+    } 
+    .showX{
+        opacity: 1;
+        transform: translateX(0vw);
+        transition: all 0.5s ease;    
+    }
+
 }
