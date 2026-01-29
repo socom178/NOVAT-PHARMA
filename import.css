@@ -319,13 +319,13 @@ h3{
     }
     .logo{
         width: 20vw;
-        height: 11vh;
+        height: 9.5vh;
         margin-left: 2vw;
         margin: 5px;
     }
     nav{
         padding: 10px;
-        height: 90vh;
+        height: 65vh;
         text-align: center;
         width: 100%;
         margin-left:-30vw;
@@ -367,12 +367,14 @@ h3{
     }
     .menub{
         display: block;
-        margin-left: 20%;
-        margin-top: -2.5vh;
-        height: 20vh;
-        width: 20vw;
+        margin-left: 10%;
+        margin-top: -6vh;
         background-color: transparent;
         color: white;
+    }
+    header svg{
+        height: 22vh;
+        width: 22vw;
     }
     #menub{
         display: block;
@@ -389,7 +391,7 @@ h3{
         flex-direction: column;
     }
     .dropdown button{
-        font-size: 25px;
+        font-size: 20px;
         font-family:'Montserrat';
         font-weight: bold;
         color: #f7f7f7;
@@ -403,7 +405,7 @@ h3{
         flex: 1 0 4px;
         position: relative;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         font-family:'Montserrat';
         font-weight: bold;
         color: #f7f7f7;
