@@ -8,98 +8,205 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="import.css">
     <link rel="icon" type="image/png" href="./outils_visuel/Logo.PNG">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-   <header>
-        <a href="./index.html"><img src="./outils_visuel/Logo.PNG" alt="logo"></a>
-        <button class="menuAF" id="bouton">MENU ☰</button>
-        <nav id="menu">
-            <ul>
-                <li><a href="./Açpropos.html" class="option">A propos</a></li>
-                <li><a href="./Services.html" class="option">services</a></li>
-                <li><a href="./partenaire.html" class="option">Partenaires</a></li>
-                <li><a href="./contact.html" class="option">Contact</a></li>
+    <header>
+        <a href="./index.html"><img src="./outils_visuel/Logo.PNG" alt="Logo officiel d'entete de NOVAT PHARMA" class="logo"></a>
+        <div class="div1">
+            <p class="p01">NOVAT-PHARMA</p>
+            <img class="img01" src="./outils_visuel/pharma-img01.jpeg" alt="logo de l'identifients des pharmacies">
+            <marquee class="marquee01" direction="left" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+                Votre agence de délégation médicale de confiance.
+            </marquee> 
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu" width="16" height="16" fill="currentColor" class="menub bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <nav id="nav">
+            <svg xmlns="http://www.w3.org/2000/svg" id="close" width="16" height="16" fill="currentColor" class="close bi bi-x-square" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+            <ul class="menuUl">
+                <li ><a href="./Apropos.html" class="menuliste">A propos</a></li>
+                
+                <div class="dropdown">
+                    <button class="btn btn-whitte dropdown-toggle text-white fw-bold " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item">Etude de faisabilité en réponse a vos besoins</a></li>
+                        <li><a href="" class="dropdown-item">Representation pharmacetique</a></li>
+                        <li><a href="" class="dropdown-item">Promotion médicale</a></li>
+                        
+                        <li><a href="" class="dropdown-item">Marketing</a></li>
+                        <li><a href="" class="dropdown-item">Approvisionnement Distribution</a></li>
+                        <li><a href="" class="dropdown-item">Veille concurentielle</a></li>  
+                    </ul>
+                </div>
+                
+                <li><a href="./Partenaire.html"  class="menuliste">Partenaires</a></li>
+                <li><a href="./Contact.html"  class="menuliste">Contact</a></li>
+                <li><a href="./Produits.html"  class="menuliste">Nos produits</a></li>
             </ul>
         </nav>
+        
     </header>
-    <img src="./outils_visuel/upscalemedia-transformed.jpeg" alt="" class="sect02">
+    
+    <div class="image-container">
+        <img src="./outils_visuel/WhatsApp Image 2026-01-28 at 01.56.30.jpeg" alt=" produits présenter pour l'acceuil de novat pharma" class="sect02">
+        <div class="overlay"></div>
+    </div>
+
+    
     
     <p class="phr1">BIENVENUE à</p>
     <p class="phr2">NOVAT <span class="span1">-</span> PHARMA</p>
-    <marquee behavior="" direction=""><p class="phr3" id="text"></p></marquee>
-    <div class="btn1"><a href="./Açpropos.php" class="btn1a">En savoir plus</a></div>
+    <marquee class="marquee02" direction="left" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()">
+        NOVAT-PHARMA accompagne les laboratoires et structures de santé en mettant à votre 
+        disposition une équipe experte de visiteurs médicaux qualifiés, pour assurer la promotion 
+        et le suivi de vos produits pharmaceutiques.
     
-    <section id="advantages">
-        <h2 class="phr4">Pourquoi choisir NOVAT-PHARMA ?</h2>
-        <div class="advantages">
-            <div class="card">
-                <h3>Une équipe certifiée et expérimentée</h3>
-                <p>Nos visiteurs médicaux sont rigoureusement formés et possèdent une solide expérience dans le secteur pharmaceutique, garantissant un travail de qualité et un suivi personnalisé.</p>
+    </marquee>
+    <a href="./Apropos.php" ><button class="btn1">En savoir plus  <i class="bi bi-plus-lg"></i></button></a>
+    
+    <section class="section2">
+        <h2 class="h11">Pourquoi choisir NOVAT-PHARMA ?</h2>
+        <hr>
+        <div class="box00">
+            <div class="box01">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                </svg>
+                <p class="h3">Une équipe certifiée et expérimentée</p>
+                <p class="p">Nos visiteurs médicaux sont rigoureusement formés et possèdent une solide expérience 
+                    dans le secteur pharmaceutique, garantissant un travail de qualité et un suivi personnalisé.
+                </p>
+                <a href="">voir l'equipe <svg xmlns="http://www.w3.org/2000/svg" width="10vw" height="12vh" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+                    </svg>
+                </a>
             </div>
-            <div class="card">
-                <h3>Une couverture nationale efficace</h3>
-                <p>Nous intervenons sur l'ensemble du territoire national, assurant une présence stratégique dans toutes les régions clés pour maximiser l’impact de vos produits.</p>
+            <div class="box01">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
+                    <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+                    <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                </svg>
+                
+                <p class="h3">Un engagement pour la qualité et la conformité</p>
+                <p class="p">NOVAT-PHARMA respecte toutes les normes et réglementations
+                    en vigueur, assurant une délégation médicale conforme et éthique.
+                </p><br>
+
+                <a href="">voir les produits <svg xmlns="http://www.w3.org/2000/svg" width="10vw" height="12vh" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+                    </svg>
+                </a>
             </div>
-            <div class="card">
-                <h3>Un engagement pour la qualité et la conformité</h3>
-                <p>NOVAT-PHARMA respecte toutes les normes et réglementations en vigueur, assurant une délégation médicale conforme et éthique.</p>
-            </div>
-            <div class="card">
-                <h3>Des partenariats solides et durables</h3>
-                <p>Nous bâtissons avec nos clients des relations basées sur la confiance, la transparence et la performance.</p>
+            <div class="box01">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
+                    <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"/>
+                </svg>
+                
+                <p class="h3">Des partenariats solides et durables</p>
+                <p class="p">Nous bâtissons avec nos clients des relations basées sur la confiance, 
+                    la transparence et la performance.
+                </p><br>
+                <a href="">voir les partenaires <svg xmlns="http://www.w3.org/2000/svg" width="10vw" height="12vh" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+                    </svg>
+                </a>
             </div>
         </div>
-
-
-        <section id="services" class="service">
-            <h2 class="phr5">Nos services au service de votre succès</h2>
-            <p style="text-align:center; max-width:700px; margin:0 auto 40px;">Nous proposons une gamme complète de services pour accompagner vos projets pharmaceutiques et optimiser la promotion de vos produits.</p>
-            <div class="services">
-                <div class="card">
-                    <h3>Délégation de visiteurs médicaux</h3>
-                    <p>Nos experts représentent votre laboratoire auprès des professionnels de santé, assurant la promotion et la diffusion de vos produits.</p>
+    </section>
+    <section class="section3">
+        <h2 class="h11">Nos services au service de votre succès</h2>
+        <hr>
+        <div class="box00">
+            <div class="box02">
+                    <p class="h33">L'expertise NOVAT-PHARMA au service de vos ambitions</p>
+                    <p class="h334e">Nous proposons une gamme complète de services pour accompagner 
+                        vos projets pharmaceutiques et optimiser la promotion de vos produits.
+                    </p>
+                    <button class="btnAg">Voir plus <i class="bi bi-eye-fill"></i></button>
+            </div>
+            <div class="cont100">
+                
+                <div class="box01">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
+                        <path d="M7 6h2v2h2v2H9v2H7v-2H5V8h2z"/>
+                        <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v10.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 14.5V4a1 1 0 0 1-1-1zm2 3v10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V4zM3 3h10V1H3z"/>
+                    </svg>
+                    <p class="h34">Délégation de visiteurs médicaux</p>
+                    <p class="p001">Nos experts représentent votre laboratoire auprès des professionnels de santé,
+                         assurant la promotion et la diffusion de vos produits.
+                    </p>
                 </div>
-                <div class="card">
-                    <h3>Promotion pharmaceutique ciblée</h3>
-                    <p>Campagnes personnalisées pour atteindre efficacement vos clients cibles et booster votre visibilité.</p>
+                <div class="box01">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
+                        <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z"/>
+                        <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1zm1.038 3.018a6 6 0 0 1 .924 0 6 6 0 1 1-.924 0M0 3.5c0 .753.333 1.429.86 1.887A8.04 8.04 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5M13.5 1c-.753 0-1.429.333-1.887.86a8.04 8.04 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1"/>
+                    </svg>
+                    <p class="h34">Formation et coaching</p>
+                    <p class="p001">Sessions de formation pour améliorer les compétences de vos équipes de visite médicale.
+                    </p>
                 </div>
-                <div class="card">
-                    <h3>Études de marché médicales</h3>
-                    <p>Analyse précise et pertinente du marché pour orienter vos stratégies commerciales.</p>
+                <div class="box01">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
+                        <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0z"/>
+                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+                    </svg>
+                    <p class="h34">Études de marché médicales</p>
+                    <p class="p001">Analyse précise et pertinente du marché pour orienter vos stratégies commerciales. </p>
                 </div>
-                <div class="card">
-                    <h3>Formation et coaching</h3>
-                    <p>Sessions de formation pour améliorer les compétences de vos équipes de visite médicale.</p>
+                <div class="box01">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
+                        <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z"/>
+                    </svg>
+                    <p class="h34">Promotion pharmaceutique ciblée</p>
+                    <p class="p001">Campagnes personnalisées pour atteindre efficacement vos 
+                        clients cibles et booster votre visibilité.
+                    </p>
+                </div>
+                
+                <div class="box01">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17vw" height="8vh" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
+                        <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"/>
+                    </svg>
+                    <p class="h34">Des partenariats solides et durables</p>
+                    <p class="p001">Nous bâtissons avec nos clients des relations basées sur la confiance, 
+                        la transparence et la performance.
+                    </p>
                 </div>
             </div>
-            <div style="text-align:center; margin-top: 30px;">
-                <a href="./Services.php" class="btn-cta">Voir tous nos services</a>
-            </div>
-        </section>
-    </section>    
+
+        </div>
+    </section>
+
     
-
     <section id="contact" class="contact-cta">
         <h2 class="phr6">Prêt à booster votre délégation médicale ?</h2>
-        <p>Notre équipe est à votre écoute pour répondre à vos besoins et vous accompagner dans vos projets. N’hésitez pas à nous contacter pour discuter de votre collaboration.</p>
+        <p class="p010">Notre équipe est à votre écoute pour répondre à vos besoins et vous accompagner dans vos projets. N’hésitez pas à nous contacter pour discuter de votre collaboration.</p>
         <a href="./contact.php">Contactez-nous dès maintenant</a>
     </section>
 
 
-    <?php 
-        include "footer.html" ;
-    ?>
+    
    <footer>
             <section class="sectionFooter">
                 <div class="ft1">
-                    <img src="./outils_visuel/Logo.PNG" alt="novat_pharmacie" class="logofooter">
+                    <img src="./outils_visuel/Logo.PNG" alt="logo de novat pharma de footer" class="logofooter">
                     <p class="descriptfooter">Votre agence de délégation médicale de confiance,
-                         au service des laboratoires pharmaceutiques et des professionnels de santé,
-                          pour une couverture terrain optimale et durable.
+                        au service des laboratoires pharmaceutiques et des professionnels de santé,
+                        pour une couverture terrain optimale et durable.
                     </p>
                 </div>
                 <div class="ft2">
-                    <h3>Liens rapides</h3>
+                    <h4 class="h44">Liens rapides</h4>
                     <ul class="ulfoot">
                         <li><a href="./index.html"class="linkfoot">Accueil</a></li>
                         <li><a href="./Açpropos.html" class="linkfoot">A propos</a></li>
@@ -108,34 +215,40 @@
                     </ul>
                 </div>
                 <div class="ft3">
-                    <h3>réseau sociaux</h3>
+                    <h4 class="h44">réseau sociaux</h4>
                     <div class="ft03">
                         <a href="">
-                            <img src="./outils_visuel/whatsapp.svg" alt="Whatsapp"  class="icone"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bob bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                            </svg>
                         </a>
                         
                         <a href="">
-                            <img src="./outils_visuel/linkedin (2).svg" alt="Facebook" class="icone" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bob bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
                         </a>
 
                         <a href="https://www.example.com">
-                            <img src="./outils_visuel/linkedin (1).svg" alt="Linkedin" class="icone" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bob bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
                         </a>
                     </div>        
                 </div>
                 <div class="ft4">
-                    <h3>contact</h3>
+                    <h4 class="h44">contact</h4>
                     <div class="ft04">
                         <div class="conte">
-                            <img src="./outils_visuel/phone-call.png" alt="" class="iconee">
+                            <i class="bobb bi bi-telephone"></i>
                             <p class="des">92 39 73 72 / 27 37 82 73</p>
                         </div>
                         <div class="conte">
-                            <img src="./outils_visuel/email-outline.svg" alt="" class="iconee">
+                            <i class="bobb bi bi-envelope-at"></i>
                             <p class="des">novapharma@gmail.com</p>
                         </div>
                         <div class="conte">
-                            <img src="./outils_visuel/map-marker-outline.svg" alt="" class="iconee">
+                            <i class="bobb bi bi-pin-map-fill"></i>
                             <p class="des">adress BP01 azerad</p>
                         </div>
                     
@@ -147,6 +260,10 @@
             <p class="copyright">© 2025 NOVAT-PHARMA - Tous droits réservés</p>
         </div>
     </footer>
-    <script src="./index.js"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    
+    <script src="./import.js" defer></script>
 </body>
 </html>

@@ -4,12 +4,13 @@ body{
     font-family: 'Montserrat';
 }
     .entete{
+        font-family:'montserrat';
         text-align: center;
         width: 100%;
-        font-size: 65px;
-        font-weight: bold;
+        font-size: 45px;
         color: #01086d;
-        margin-top: 12vh;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
     }
     .flex{
         display: flex;
@@ -20,7 +21,6 @@ body{
         padding: 10px;
     }
     .opti{
-        gap: 1.5vh;
         border-radius: 8px;
         padding: 10px;
         background-color: #fafafa;
@@ -33,6 +33,7 @@ body{
         display: flex;
         align-items: center;
         gap: 1vw;
+        margin-top: 4vh;
     }
 
     .icone{

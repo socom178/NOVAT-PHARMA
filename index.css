@@ -1,20 +1,8 @@
 body{
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(238, 238, 238);
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
-}
-header{
-    display: flex;
-    align-items: center;
-    height: 8vh;
-    background-color: rgb(6, 175, 0);
-    margin: 0;
-    width: 100%;
-    border-bottom: rgb(6, 175, 0);
-    position: fixed;
-    top: 0;
-    right: 0;
 }
 .section1{
     display: flex;
@@ -27,12 +15,35 @@ header{
     padding: 0;
 }
 .sect02{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     margin-left: 0;
     position: relative;
-    margin-top: 5vh;
+    margin-top: 0.3vh;
 }
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(6, 77, 0, 0.411); /* couleur + transparence */
+}
+
+
+
+
 .phr1{
     font-family: 'Montserrat';
     font-size: 45px;
@@ -64,16 +75,15 @@ header{
     text-align: center;
     margin-left: 10%;
 }
-marquee{
+.marquee02{
     margin-top: -48vh;
     position: absolute;
     font-size: 18px;
-    font-weight: bold;
     color: white;
-    font-family: 'Montserrat';
-    width: 80%;
+    font-family: cursive;
+    width: 70%;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .drop {
   display: inline-block;      /* OBLIGATOIRE pour que ça descende */
@@ -81,44 +91,134 @@ marquee{
   animation: drop 0.6s forwards;
 }
 
-@keyframes drop {
-  from {
-    opacity: 0;
-    transform: translateY(-60px); /* descend depuis le haut */
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+
 
 
 .span1{
-    color: rgb(1, 1, 124);
+    color: rgb(0, 0, 197);
 }
 
 .btn1{
-
-    margin-top: 10vh;
-    padding: 15px;
+    border: none;
+    padding: 5px;
     margin-top: -30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     text-align: center;
     color: rgb(255, 255, 255);
     position: absolute;
     width: 15%;
-    margin-left: 40%;
+    margin-left: 42.5%;
     border-radius: 5px;
-    background-color: rgb(7, 175, 1);
+    background-color: rgb(9, 226, 1);
     transition: all 0.5s ease;
 }
 .btn1:hover{
     transition: all 0.5s ease;
-    background-color: rgb(72, 255, 35);
-    color: #13a700;
+    background-color: rgb(73, 255, 37);
+    color: #000000;
 }
 .flex{
     display: flex;
 }
+
+
+.section2{
+    background-color: white;
+    padding: 10vh 10vw;
+    box-shadow: 1px 1px 3px 0.5px rgb(136, 136, 136);
+}
+.section3{
+    margin-top: 8vh;
+    background-color: white;
+    padding: 10vh 10vw;
+    box-shadow: 1px 1px 3px 0.5px rgb(136, 136, 136);
+}
+.box00{
+    display: flex;
+    gap: 4vw;
+}
+.box01{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease;
+}
+.box01:hover{
+    transition: all 0.4s ease;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0.1px 0.2px 2px 0.3px rgb(121, 121, 121);
+}
+svg{
+    background-color: rgb(15, 15, 253);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+a svg {
+    background-color: white;
+    color: #0084ff;
+}
+.h3{
+    padding-top: 3vh;
+    font-weight: bold;
+    font-size: 22px;
+}
+.p{
+    padding-top: 3vh;
+}
+
+.box02{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserrat';
+}
+.h33{
+    font-weight: bold;
+    font-size: 40px;
+    color: #222222;
+}
+.btnAg{
+    width: 40%;
+    border: 1px solid rgb(46, 197, 0);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(46, 197, 0);
+    background-color: white;
+    transition: all 0.5s ease;
+}
+.btnAg:hover{
+    color: white;
+    background-color:rgb(46, 197, 0) ;
+    border: none;
+    transition: all 0.5s ease;
+}
+.cont100{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 1.5vw;
+}
+.h34{
+    font-weight: bold;
+    font-size: 18px;
+}
+.p001{
+    padding-top: 0vh;
+    font-size: 13px;
+    color: #6e6e6e;
+    font-family: 'Montserrat';
+}
+
+
+
+
 .phr4{
     text-align: center;
     color: #0850bd;
@@ -146,6 +246,18 @@ marquee{
     width: 55%;
     padding: 5px;
     margin-left: 22.5%;
+}
+.phr6{
+    font-family: 'montserrat';
+   
+
+}
+.p010{
+    font-size: 14px;
+    color: #161616;
+    font-family: 'montserrat';
+    width: 60%;
+    margin-left: 20%;
 }
 .btn-cta{
     color: #1100ff;
@@ -186,11 +298,11 @@ marquee{
     font-weight: bold;
     font-size: 18px;
 }
-.card h3 {
+.card  {
     margin-top: 15px;
     color: #13a700;
 }
-.card p {
+.card  {
     margin-top: 10px;
     color: #555;
 }
@@ -226,4 +338,393 @@ marquee{
         }
         .contact-cta a:hover {
             background: #074b8a;
+        }
+
+
+        .navbar{
+            background-color: #13a700;
+        }
+        .navbar-nav{
+            margin-left: 15vw;
+        }
+        .d-flex{
+            margin-left: 0;
+        }
+
+
+        @media screen and (max-width:600px){
+            
+            body{
+                background-color: rgb(238, 238, 238);
+                margin: 0;
+                padding: 0;
+                font-family: 'Montserrat';
+            }
+            .section1{
+                display: flex;
+                margin: 5px;
+                border-radius: 5px;
+                background-color:rgb(252, 252, 254);
+                box-shadow: 0.1px 0.1px 3px 0.1px black;
+                height: 60vh;
+                width: 99%;
+                padding: 0;
+            }
+            .sect02{
+                height: 70vh;
+                width: 100%;
+                margin-left: 0;
+                position: relative;
+                margin-top: 0.3vh;
+            }
+
+            .image-container {
+                margin-top: 15vh;
+                position: relative;
+                width: 100%;
+
+            }
+
+            .image-container img {
+            width: 100%;
+            display: block;
+            }
+
+            .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70vh;
+            background-color: rgba(6, 77, 0, 0.411); /* couleur + transparence */
+            }
+
+
+
+
+            .phr1{
+                font-family: 'Montserrat';
+                font-size: 38px;
+                margin-top: -55vh;
+                margin-left: 10%;
+                color: rgb(249, 249, 255);
+                font-weight: bold;
+                position: absolute;
+                width: 80%;
+                text-align: center;
+            }
+            .phr2{
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: bold;
+                margin-top: -45vh;
+                margin-left: 2.5%;
+                color: rgb(1, 255, 1);
+                position: absolute;
+                width: 95%;
+                text-align: center;
+            }
+            .phr3{
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                font-family: 'Montserrat';
+                width: 80%;
+                text-align: center;
+                margin-left: 10%;
+            }
+            .marquee02{
+                margin-top: -30vh;
+                position: absolute;
+                font-size: 22px;
+                color: white;
+                font-family: cursive;
+                width: 70%;
+                text-align: center;
+                margin-left: 15%;
+            }
+            .drop {
+                display: inline-block;      
+                opacity: 0;
+                animation: drop 0.6s forwards;
+            }
+
+
+
+
+            .span1{
+                color: rgb(0, 0, 197);
+            }
+
+            .btn1{
+                border: none;
+                padding: 5px;
+                margin-top: -15vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                position: absolute;
+                font-size: 24px;
+                width: 50%;
+                margin-left: 25%;
+                border-radius: 8px;
+                background-color: rgb(9, 226, 1);
+                transition: all 0.5s ease;
+            }
+            .btn1:hover{
+                transition: all 0.5s ease;
+                background-color: rgb(73, 255, 37);
+                color: #000000;
+            }
+            .flex{
+                display: flex;
+            }
+
+
+            .section2{
+                background-color: white;
+                padding: 10vh 10vw;
+                box-shadow: 1px 1px 3px 0.5px rgb(136, 136, 136);
+            }
+            .section3{
+                margin-top: 8vh;
+                background-color: white;
+                padding: 10vh 10vw;
+                box-shadow: 1px 1px 3px 0.5px rgb(136, 136, 136);
+            }
+            .h11{
+                font-size: 24px;
+            }
+            .box00{
+                display: flex;
+                flex-direction: column;
+                gap: 4vw;
+            }
+            .box01{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                transition: all 0.4s ease;
+            }
+            
+            .box01 a{
+                font-size: 22px;
+            }
+            .box01:hover{
+                transition: all 0.4s ease;
+                padding: 10px;
+                border-radius: 6px;
+                box-shadow: 0.1px 0.2px 2px 0.3px rgb(121, 121, 121);
+            }
+            svg{
+                background-color: rgb(15, 15, 253);
+                border-radius: 10px;
+                padding: 10px;
+                color: white;
+            }
+            a svg {
+                background-color: white;
+                color: #0084ff;
+            }
+            .h3{
+                padding-top: 3vh;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .p{
+                padding-top: 3vh;
+                font-size: 22px;
+            }
+
+            .box02{
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                font-family: 'montserrat';
+            }
+            .h33{
+                font-weight: bold;
+                font-size: 30px;
+                color: #222222;
+                text-align: center;
+            }
+            .h334e{
+                font-size: 23px;
+            }
+            .btnAg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 48%;
+                border: 1px solid rgb(46, 197, 0);
+                border-radius: 5px;
+                padding: 8px;
+                font-size: 17px;
+                font-weight: bold;
+                color: rgb(46, 197, 0);
+                background-color: white;
+                transition: all 0.5s ease;
+                gap: 1vw;
+            }
+            .btnAg:hover{
+                color: white;
+                background-color:rgb(46, 197, 0) ;
+                border: none;
+                transition: all 0.5s ease;
+            }
+            .cont100{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                gap: 1.5vw;
+            }
+            .h34{
+                font-weight: bold;
+                font-size: 22px;
+            }
+            .p001{
+                padding-top: 0vh;
+                font-size: 18px;
+                color: #6e6e6e;
+                font-family: 'Montserrat';
+            }
+
+
+
+
+            .phr4{
+                text-align: center;
+                color: #0850bd;
+                margin-bottom: 40px;
+                font-size: 2.2rem;
+                background-color: #ffffff;
+                border-left: 5px solid #0084ff;
+                border-right: 5px solid #0084ff;
+                border-radius: 8px;
+                width: 55%;
+                padding: 5px;
+                margin-left: 22.5%;
+            }
+            .service{
+                margin-top: 10vh;
+            }
+            .phr5{
+                text-align: center;
+                color: #07015f;
+                margin-top: 4vh;
+                font-size: 2rem;
+                background-color: #ffffff;
+                border-bottom: 3px solid #07006e;
+                border-radius: 8px;
+                width: 55%;
+                padding: 5px;
+                margin-left: 22.5%;
+            }
+            .phr6{
+                font-family: 'montserrat';
+                font-weight: bold;
+
+            }
+            .p010{
+                font-size: 14px;
+                color: #161616;
+                font-family: 'montserrat';
+                width: 60%;
+                margin-left: 20%;
+            }
+            .btn-cta{
+                color: #1100ff;
+                transition: all 0.7s ease;
+            }
+            .btn-cta:hover{
+                transition: all 0.7s ease;
+                color: #050235;
+            }
+            .advantages, .services, .partners {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 3vw;
+            }
+            .services{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 2vw;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                padding: 25px 20px;
+                box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+                flex: 1 1 280px;
+                max-width: 320px;
+                text-align: center;
+                transition: all 0.4s ease;
+            }
+            .card:hover {
+                transition: all 0.2s ease;
+                padding: 35px 30px;
+                box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+                background: rgb(255, 255, 255);
+                border: 1px solid #13a700;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .card  {
+                margin-top: 15px;
+                color: #13a700;
+            }
+            .card  {
+                margin-top: 10px;
+                color: #555;
+            }
+                    .partners img {
+                        max-height: 60px;
+                        margin: 0 20px;
+                        filter: grayscale(80%);
+                        transition: filter 0.3s ease;
+                        cursor: default;
+                    }
+                    .partners img:hover {
+                        filter: none;
+                    }
+                    .contact-cta {
+                        text-align: center;
+                        margin-bottom: 8vh;
+                        margin-top: 10vh;
+                    }
+                    .contact-cta p {
+                        font-size: 1.2rem;
+                        margin-bottom: 30px;
+
+                    }
+                    .contact-cta a {
+                        background: #0a74da;
+                        color: white;
+                        padding: 14px 32px;
+                        font-weight: 700;
+                        border-radius: 6px;
+                        text-decoration: none;
+                        transition: all 0.5s ease;
+                        
+                    }
+                    .contact-cta a:hover {
+                        background: #074b8a;
+                    }
+
+
+                    .navbar{
+                        background-color: #13a700;
+                    }
+                    .navbar-nav{
+                        margin-left: 15vw;
+                    }
+                    .d-flex{
+                        margin-left: 0;
+                    }
+
         }
