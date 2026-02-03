@@ -352,6 +352,15 @@ a svg {
         }
 
 
+
+
+
+
+
+
+
+
+
         @media screen and (max-width:600px){
             
             body{
@@ -379,7 +388,7 @@ a svg {
             }
 
             .image-container {
-                margin-top: 12vh;
+                margin-top: 10vh;
                 position: relative;
                 width: 100%;
 
@@ -488,7 +497,7 @@ a svg {
                 box-shadow: 1px 1px 3px 0.5px rgb(136, 136, 136);
             }
             .h11{
-                font-size: 24px;
+                font-size: 20px;
             }
             .box00{
                 display: flex;
@@ -503,7 +512,7 @@ a svg {
             }
             
             .box01 a{
-                font-size: 22px;
+                font-size: 13px;
             }
             .box01:hover{
                 transition: all 0.4s ease;
@@ -524,11 +533,11 @@ a svg {
             .h3{
                 padding-top: 3vh;
                 font-weight: bold;
-                font-size: 18px;
+                font-size: 16px;
             }
             .p{
                 padding-top: 3vh;
-                font-size: 18px;
+                font-size: 14px;
             }
 
             .box02{
@@ -539,12 +548,12 @@ a svg {
             }
             .h33{
                 font-weight: bold;
-                font-size: 30px;
+                font-size: 22px;
                 color: #222222;
                 text-align: center;
             }
             .h334e{
-                font-size: 23px;
+                font-size: 17px;
             }
             .btnAg{
                 display: flex;
@@ -554,7 +563,7 @@ a svg {
                 border: 1px solid rgb(46, 197, 0);
                 border-radius: 5px;
                 padding: 8px;
-                font-size: 17px;
+                font-size: 15px;
                 font-weight: bold;
                 color: rgb(46, 197, 0);
                 background-color: white;
@@ -575,11 +584,11 @@ a svg {
             }
             .h34{
                 font-weight: bold;
-                font-size: 22px;
+                font-size: 20px;
             }
             .p001{
                 padding-top: 0vh;
-                font-size: 18px;
+                font-size: 16px;
                 color: #6e6e6e;
                 font-family: 'Montserrat';
             }
@@ -618,10 +627,10 @@ a svg {
             .phr6{
                 font-family: 'montserrat';
                 font-weight: bold;
-
+                font-size: 18px;
             }
             .p010{
-                font-size: 14px;
+                font-size: 13px;
                 color: #161616;
                 font-family: 'montserrat';
                 width: 60%;

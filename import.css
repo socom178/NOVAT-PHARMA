@@ -316,10 +316,11 @@ h3{
         top: 0;
         right: 0;
         
+        
     }
     .logo{
-        width: 20vw;
-        height: 9.5vh;
+        width: 18vw;
+        height: 8vh;
         margin-left: 2vw;
         margin: 5px;
     }
@@ -356,9 +357,9 @@ h3{
     }
     .close{
         display: block;
-        margin-left: 77%;
-        height: 15vh;
-        width: 17vw;
+        margin-left: 80%;
+        height: 10vh;
+        width: 12vw;
         background-color: transparent;
         color: white;
     }
@@ -366,9 +367,11 @@ h3{
         display: block;
     }
     .menub{
+        height: 11vh;
+        width: 15vw;
         display: block;
-        margin-left: 10%;
-        margin-top: -6vh;
+        margin-left: 9%;
+        margin-top: -1vh;
         background-color: transparent;
         color: white;
     }

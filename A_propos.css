@@ -312,13 +312,13 @@ body{
 
 
 .imgbg2{
-    margin-top: 13vh;
+    margin-top: 10vh;
     width: 100%;
-    height: 70vh;
+    height: 55vh;
     position: relative;
 }
 .page-header .pp12{
-    margin-top: 10vh;
+    margin-top: 8vh;
     padding: 10px;
     width: 100%;
     color: #e7e7e7;
@@ -337,7 +337,7 @@ body{
     
 }
 .page-header{
-    margin-top: -55vh;
+    margin-top: -45vh;
     margin-left: 0vw;
     position: absolute;
     font-family: 'montserrat';
@@ -435,8 +435,8 @@ body{
     width: 90%;
 }
 .image-container img {
-  width: 100%;
   height: 35vh;
+  width:45vw;
   display: block;
   border-radius: 8px;
   margin-bottom: 3vh;
@@ -455,16 +455,16 @@ body{
     margin-top: -30vh;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'montserrat';    
-    position: relative;
+    position: relativ;
     text-align: center;
 }
 .corpsr{
-    position: relative;
+    position: relativ;
     margin-top: 2vh;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     width: 90%;
     margin-left: 5%;
     font-family: 'montserrat';    
@@ -472,11 +472,15 @@ body{
 }
 .blabla{
     display: flex;
-    flex-wrap: wrap;
     gap: 5vw;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+    scrollbar-width:auto;
+    justify-content:baseline;
+    align-items:baseline;
 }
+
+
 
 
 
