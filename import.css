@@ -558,8 +558,8 @@ footer{
     background-color: transparent;
 }
 .bobb{
-    height: 5vh;
-    width: 2.5vw;
+    height: 4vh;
+    width: 2vw;
     font-size: 35px;
     color: rgb(29, 143, 0);
     padding: 0px;
@@ -604,11 +604,10 @@ footer{
 }
 
 .ft04{
-    margin-left: 0;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    margin-left: 2vw;
+    align-items: stretch;
+    margin-left: 1vw;
 }
 .ft4{
     display: flex;
@@ -641,10 +640,21 @@ h3{
 }
 
 .conte{
-    display: flex;
-    margin-left: 1vw;
+    display:flex;
+    
+    align-items:start;
+    justify-content:start;
+    margin-left: 0;
     padding: 5px;
-    gap: 2vw;
+    gap: 1vw;
+    
+
+}
+.des{
+    display:block;
+    font-size: 15px;
+    padding-top: 1vh;
+    padding-left: 10vw;
 }
 
 
