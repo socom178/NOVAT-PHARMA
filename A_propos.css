@@ -161,7 +161,7 @@ body{
     font-family: 'montserrat';    
     text-align: center;
 }
-.blabla{
+.values-list{
     display: flex;
     flex-wrap: wrap;
     gap: 5vw;
@@ -312,27 +312,28 @@ body{
 
 
 .imgbg2{
-    margin-top: 10vh;
+    margin-top: 11vh;
     width: 100%;
     height: 55vh;
     position: relative;
 }
 .page-header .pp12{
-    margin-top: 8vh;
+    margin-top: 5vh;
     padding: 10px;
     width: 100%;
     color: #e7e7e7;
 }
 .page-header h1 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     width: 100%;
     text-align: center;
 }
 .page-header p {
     margin-top: 2vh;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+    margin-right: 2vw;
 
     
 }
@@ -382,12 +383,12 @@ body{
 }
 .hh2{
     color: #011a8b;
-    font-size: 32px;
+    font-size:25px;
     font-family: 'montserrat';
 }
 .h22z{
     color: #011a8b;
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'montserrat';
 }
 .h2{
@@ -401,13 +402,13 @@ body{
     border-top: 3px solid rgb(0, 4, 255);
 }
 .paragt{
-    font-size: 15px;
+    font-size: 14px;
     color: #00041b;
     font-family: 'montserrat';
 }
 .h22{
     color: #119200;
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'montserrat';
 }
 .hr2{
@@ -452,7 +453,7 @@ body{
   background-color: rgba(1, 37, 35, 0.473); /* couleur + transparence */
 }
 .par1r{
-    margin-top: -30vh;
+    margin-top: -35vh;
     color: white;
     font-weight: bold;
     font-size: 16px;
@@ -470,17 +471,17 @@ body{
     font-family: 'montserrat';    
     text-align: center;
 }
-.blabla{
+
+.values-list{
+    padding-left: 5vw;
     display: flex;
     gap: 5vw;
     flex-wrap: nowrap;
-    overflow-x:auto;
-    scrollbar-width:auto;
-    justify-content:baseline;
-    align-items:baseline;
+    overflow-x:scroll;
+    scrollbar-width:thin;
+    justify-content: stretch;
+    align-items: stretch;
 }
-
-
 
 
 
@@ -551,12 +552,12 @@ body{
 .phr12{
     color: #0015d6;
     margin-top: 2vh;
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
 }
 .phr13{
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 1vh;
     font-family: 'montserrat';
     color: rgb(78, 78, 78);
